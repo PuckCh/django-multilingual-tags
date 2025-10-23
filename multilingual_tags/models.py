@@ -1,7 +1,7 @@
 """Models for the `multilingual_tags` app."""
 from django.contrib.contenttypes import fields, models as ctype_models
 from django.db import models
-from django.utils.translation import ugettext_lazy as _, get_language
+from django.utils.translation import gettext_lazy as _, get_language
 from django.conf import settings
 
 from parler.managers import TranslatableManager

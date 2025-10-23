@@ -3,7 +3,7 @@ from django import forms
 from django.forms.utils import ErrorList
 from django.contrib.contenttypes.models import ContentType
 from django.utils.text import slugify
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from .. import models
 
